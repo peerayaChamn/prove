@@ -1,36 +1,24 @@
 {
   "name": "js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "14.x"
-  },
+  "version": "1.0.0",
+  "description": "A barebones Node.js app using [Express 4](http://expressjs.com/).",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
-  },
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
   },
-  "devDependencies": {
-    "got": "^11.3.0",
-    "tape": "^4.7.0"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroku/node-js-getting-started.git"
+    "url": "git+https://github.com/peerayaChamn/prove.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heroku/node-js-getting-started/issues"
+    "url": "https://github.com/peerayaChamn/prove/issues"
   },
-  "homepage": "https://github.com/heroku/node-js-getting-started#readme",
-  "author": ""
+  "homepage": "https://github.com/peerayaChamn/prove#readme"
 }
