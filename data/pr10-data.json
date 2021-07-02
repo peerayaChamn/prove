@@ -1,22 +1,28 @@
 {
     "avengers": [
         {
-            "name": "Tony Stark"
+            "name": "Tony Stark",
+            "power" : " Iron man"
         },
         {
-            "name": "Steve Rogers"
+            "name": "Steve Rogers",
+            "power" : " A man with shield"
         },
         {
-            "name": "Thor Odinson"
+            "name": "Thor Odinson",
+            "power" : " Thunder"
         },
         {
-            "name": "Bruce Banner"
+            "name": "Bruce Banner",
+            "power": " Hulk"
         },
         {
-            "name": "Natasha Romanova"
+            "name": "Natasha Romanova",
+            "power" : " She can kick"
         },
         {
-            "name": "Clint Barton"
+            "name": "Clint Barton",
+            "power" : " unknown"
         }
     ]
 }

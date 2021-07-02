@@ -12,16 +12,12 @@ router.post('/insertName', (req, res, next) => {
     // Typically you should do some sort of filtering and error checking. This is minimal, and makes sure we're not accepting empty values
     if (req.body.newName !== undefined) {
         const newName = req.body.newName
+        const newPower = req.body.newPower
+        
         console.log(newName)
-
-        // Make our submissions somewhat unique.
-        if (!dummyData.avengers.some(a => a.name === newName)) {
-            dummyData.avengers.push({ name: newName }) // Push new object into the dummyData
-            res.sendStatus(200)
-        }
-    } else {
-        res.sendStatus(400) // Bad request error code
-    }
+        dummyData.avengers.push({ name: newName, power: newPower }) // Push new object into the dummyData
+        res.sendStatus(200)
+    } 
 })
 
 router.get('/', (req, res, next) => {
